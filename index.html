@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>Crystal Collector</title>
+
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+	
+	<!-- header -->
+	<header class="round-corners">
+
+		<div class="headings align-center">Crystal Collector</div>
+
+	</header>
+
+	<!-- instructions -->
+	<div class="howToBox round-corners">
+		<div class="headings2 align-center">How to Play</div>
+
+		<p class="align-center">Match your score to number given without going over</p>		
+
+	</div> <!-- howToBox -->
+
+	<!-- win-loss record -->
+	<div class="statRow">
+		<div class="winBox round-corners">
+
+			<div class="headings2 align-center">Wins</div>
+			<p class="align-center" id="wins"></p>
+
+		</div> <!-- winBox -->
+
+		<div class="lossBox round-corners">
+
+			<div class="headings2 align-center">Losses</div>
+			<p class="align-center" id="losses"></p>
+
+		</div> <!-- lossBox -->
+	</div> <!-- instructions -->
+
+	<!-- random number box -->
+	<div class="gameBox">
+		<div class="randomNumberBox round-corners">
+
+			<div class="headings2 align-center">Random Number</div>
+			<p class="align-center" id="randomNumber"></p>
+
+		</div> <!-- randomNumberBox -->
+			
+			<div class="userScoreBox round-corners">
+				
+				<div class="headings2 align-center">Your Score</div>
+				<p class="align-center" id="score"></p>
+
+			</div> <!-- userScoreBox -->
+
+	</div> <!-- gameBox -->
+
+	<!-- crystal box -->
+	<div class="crystalBox round-corners">
+
+		<div class="headings3 align-center">Click a crystal to increase your score. Each crystal has a different value</div>
+
+		<p class="align-center">
+			<img src="assets/images/flourite.jpeg" alt="flourite" class="crystal" id="big">
+			<img src="assets/images/opal.jpeg" alt="opal" class="crystal" id="little">
+			<img src="assets/images/red-beryl.jpeg" alt="red-beryl" class="crystal" id="giant">
+			<img src="assets/images/torbernite.jpeg" alt="torbernite" class="crystal" id="tiny">
+
+		</p>
+		
+
+	</div> <!-- crystalBox -->
+
+</body>
+</html>
